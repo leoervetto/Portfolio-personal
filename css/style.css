@@ -475,3 +475,61 @@ header.sticky .nav-bar{
     border-radius: 2px;
     width: 95%; /* mover característica a cada tecnologia aprendida segun su porcentaje */
 }
+
+.bar .html:before{
+    width: 80%;
+}
+.bar .css:before{
+    width: 60%;
+}
+.bar .js:before{
+    width: 30%;
+}
+.bar .sql:before{
+    width: 20%;
+}
+.bar .python:before{
+    width: 45%;
+}
+.bar .django:before{
+    width: 10%;
+}
+
+.experience-card{
+    background: var(--card-bg-color);
+    border-bottom: 3px solid var(--second-color);
+    padding: 35px;
+    border-radius: 6px;
+    box-shadow: var(--box-shadow);
+    transition: .3s ease;
+}
+
+.experience-card .upper{
+    line-height: 30px;
+}
+
+.experience-card h3{
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.experience-card h5{
+    font-size: var(--small-font-size);
+    font-weight: 500;
+    font-style: italic;
+}
+
+.experience-card span{
+    color: var(--third-color);
+}
+
+.experience-card .hr{
+    width: 100%;
+    height: 2px;
+    background: var(--line-color);
+    margin: 10px 0 22px;
+}
+
+.edu-list .item:hover, .bar:hover, .experience-card:hover{
+    transform: scale(1.03);
+}
